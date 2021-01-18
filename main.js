@@ -2,7 +2,7 @@ const images = document.querySelectorAll('img')
 const slider = document.querySelector('.slider')
 
 let options = {
-    root: null,
+    root: slider,
     rootMargin: '0px 100px 0px 0px',
     threshold: 1
 }
